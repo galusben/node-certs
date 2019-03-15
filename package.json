@@ -1,13 +1,9 @@
 {
   "name": "certs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "Example Usage of node-forge to create a root certificate and use it to sign a certificate.",
+  "main": "csr.js",
+  "author": "Gal Ben Ami",
   "dependencies": {
     "node-forge": "^0.8.1"
   }
